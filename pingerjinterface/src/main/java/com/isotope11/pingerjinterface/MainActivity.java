@@ -203,7 +203,7 @@ public class MainActivity extends Activity {
 
                 try {
                     if(self == null){
-                        self = new OtpNode("mynode", "test");
+                        self = new OtpNode("mynode", COOKIE);
                         mbox = self.createMbox("facserver");
 
                         if (self.ping(remoteNodeName, 2000)) {

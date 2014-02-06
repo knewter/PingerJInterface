@@ -22,3 +22,18 @@ hello_jinterface:start().
 
 Then run the android app.  There are buttons.  Press them in order.  The first
 button takes a long-ass time to run.
+
+If you prefer Elixir:
+
+```sh
+iex --name "server@192.168.1.136" hello_jinterface.ex
+```
+
+Then:
+
+```
+:erlang.set_cookie(node(), :test)
+HelloJInterface.start
+```
+
+And clickie the button...

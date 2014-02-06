@@ -3,3 +3,4 @@
 /.idea/workspace.xml
 .DS_Store
 hello_jinterface.beam
+erl_crash.dump
